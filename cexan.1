@@ -1,0 +1,27 @@
+.TH cexan 1 "2025-04-13" "cexan" "User Commands"
+.SH NAME
+cexan - utility for displaying file contents in hexadecimal and ASCII formats.
+.SH SYNOPSIS
+.B cexan
+[\-h, \--help]
+[\-b, \--bytes <number_of_bytes>]
+[filename]
+.SH DESCRIPTION
+cexan is a utility that displays the contents of a file in hexadecimal and ASCII formats. It allows specifying the number of bytes per line and supports processing one file at a time.
+.SH OPTIONS
+.TP
+.B \-h, \--help
+Displays this help page.
+.TP
+.B \-b, \--bytes <number_of_bytes>
+Specifies the number of bytes to be displayed per line. The default value is 16.
+.SH ARGUMENTS
+.TP
+B
+filename
+Path to the file whose contents are to be displayed.
+.SH EXIT STATUS
+The utility returns 0 upon successful execution and a non-zero value in case of an error.
+.SH EXAMPLES
+.B cexan -b 32 example.txt
+Displays the contents of example.txt with 32 bytes per line.
