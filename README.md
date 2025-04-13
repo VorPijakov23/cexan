@@ -1,5 +1,4 @@
 # cexan
-=====================================
 cexan - is a simple command-line utility designed to display the contents of files in a hexadecimal and ASCII format. It is similar to tools like `hexdump`, but with a focus on simplicity and ease of use.
 
 ### Install
